@@ -1,0 +1,11 @@
+@import 'tailwindcss';
+
+@theme {
+    --color-lightBlack: #27272a;
+    --color-base: #212124;
+    --color-primary: #a9e851;
+}
+
+body {
+    @apply bg-base text-[#f4f4f5];
+}
